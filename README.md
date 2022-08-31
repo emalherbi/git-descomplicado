@@ -9,7 +9,7 @@ Guia prático do git, sem complicação ;)
 ## Configurações
 
 - As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
-- (Ex.: Windows: C:\Users\NOME_PC\.gitconfig);
+- (Ex.: Windows: C:\\Users\\NOME_PC\\.gitconfig);
 - As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima;
 
 #### Setar usuário e e-mail
