@@ -310,7 +310,34 @@ git remote -v
 ```
 git remote show origin
 ```
-	
+
+# Comandos Rápidos
+
+#### Atualizar o repositório **main**
+
+```
+git add .
+git commit -m "meu comentário"
+git push
+```
+
+#### Criar uma branch **xyz** e atualizar o repositório remoto
+
+```
+git checkout -b xyz
+# Realizar as alteração na branch
+git add .
+git commit -m "meu comentário"
+git push -u origin xyz
+```
+
+#### Retornar para branch **main** e atualizar o repositório local 
+
+```
+git checkout main
+git pull
+```
+
 # Git Alias
 
 - As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
