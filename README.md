@@ -111,7 +111,7 @@ git fetch -p
 #### Clonar um repositório remoto já existente
 
 ```
-git clone git@github.com:leocomelli/curso-git.git
+git clone git@github.com:emalherbi/git-descomplicado.git
 ```
 
 ## Visualizar histórico
