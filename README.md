@@ -92,6 +92,10 @@ Os demais pushes não precisam dessa informação
 git push
 ```
 
+# Contribuições
+
+Sinta-se a vontade para realizar adicionar mais informações ou realizar correções. Fork me!
+
 # Referências
 
 - [git - guides](https://github.com/git-guides/git-commit)
