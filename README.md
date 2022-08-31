@@ -247,6 +247,27 @@ git log --author=usuario
 
 Verifique as demais opções de formatação no [Git Book](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
 
+## Rebasing
+
+Quando é necessário atualizar a branch **xyz** com as atualizações da **main**
+
+```
+git rebase main
+```
+
+Fazendo o **rebase**. Atualizar a branch **xyz** com a **main**
+
+```
+git checkout xyz
+git fetch origin main
+git rebase origin/main
+# Corrigir os conflitos
+git rebase --continue # ou git rebase --skip
+git push --force-with-lease
+```
+
+Mais informações e explicações sobre o [Rebasing](http://git-scm.com/book/en/Git-Branching-Rebasing)
+
 # Repositório Remoto
 
 #### Exibir os repositórios remotos
