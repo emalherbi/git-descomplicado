@@ -108,7 +108,7 @@ git pull
 git fetch -p
 ```
 
-#### Clonar um repositório remoto já existente
+## Clonar um repositório remoto já existente
 
 ```
 git clone git@github.com:emalherbi/git-descomplicado.git
