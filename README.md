@@ -14,14 +14,14 @@ Guia prático do git, sem complicação ;)
 
 #### Setar usuário e e-mail
 
-```sh
+```
 git config --global user.name "SEU NOME COMPLETO"
 git config --global user.email "seu@email.com"
 ```
 
 #### Listar configurações
 
-```sh
+```
 git config --list
 ```
 
@@ -31,13 +31,13 @@ git config --list
 
 Isso cria um novo subdiretório chamado **.git** que contém todos os arquivos necessários de seu repositório (um esqueleto de repositório Git):
 
-```sh
+```
 git init 
 ```
 
 ## Verificar estado dos arquivos/diretórios:
 
-```sh
+```
 git status
 ```
 
@@ -47,19 +47,19 @@ Adiciona os arquivos novos ou alterados em seu diretório de trabalho à área d
 
 #### Adicionar todos os arquivos/diretórios
 
-```sh
+```
 git add .
 ```
 
 #### Adicionar um arquivo em específico
 
-```sh
+```
 git add meu_arquivo.txt
 ```
 
 #### Adicionar um diretório em específico
 
-```sh
+```
 git add meu_diretorio
 ```
 
@@ -68,13 +68,13 @@ git add meu_diretorio
 - Para realmente confirmar estas mudanças (isto é, fazer um commit), use:
 - Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remoto.
 
-```sh
+```
 git commit -m "meu comentário"
 ```
 
 #### Comitar arquivo específico informando uma mensagem
 
-```sh
+```
 git commit meu_arquivo.txt -m "meu comentário"
 ```
 
@@ -82,15 +82,54 @@ git commit meu_arquivo.txt -m "meu comentário"
 
 O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
 
-```sh
+```
 git push -u origin main
 ```
 
 Os demais pushes não precisam dessa informação
 
-```sh
+```
 git push
 ```
+
+## Visualizar histórico
+
+#### Exibir histórico
+	
+```
+git log
+```
+
+#### Exibir histórico com diff das duas últimas alterações
+
+```
+git log -p -2
+```
+	
+#### Exibir informações resumidas em uma linha (hash completa e comentário)
+
+```
+git log --pretty=oneline
+```
+	
+#### Exibir histórico com formatação específica (hash abreviada, autor, data e comentário)
+
+```
+git log --pretty=format:"%h - %an, %ar : %s"
+```
+ 
+* %h: Abreviação do hash;
+* %an: Nome do autor;
+* %ar: Data;
+* %s: Comentário.
+
+#### Exibir histório de um determinado autor
+
+```
+git log --author=usuario
+```
+
+Verifique as demais opções de formatação no [Git Book](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
 
 ## Git Alias
 
@@ -133,6 +172,3 @@ Sinta-se a vontade para realizar adicionar mais informações ou realizar corre�
 - [git - book](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Obtendo-um-Reposit%C3%B3rio-Git)
 - [git - guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [git - comandos - leocomelli](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
-
-
-
