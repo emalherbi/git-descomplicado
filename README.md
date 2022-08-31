@@ -167,9 +167,8 @@ git remote show origin
   pl = pull
   ps = push
   psf = push --force-with-lease
-  rb = rebase origin/master
+  rb = rebase origin/main
   rbc = rebase --continue
-  rbm = rebase origin/main
   rbs = rebase --skip
   rs = reset --hard HEAD
   st = status -sb
