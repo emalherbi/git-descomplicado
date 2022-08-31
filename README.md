@@ -27,7 +27,7 @@ git config --list
 
 ## Repositório Local
 
-#### Criar novo repositório
+## Criar novo repositório
 
 Isso cria um novo subdiretório chamado **.git** que contém todos os arquivos necessários de seu repositório (um esqueleto de repositório Git):
 
@@ -35,35 +35,35 @@ Isso cria um novo subdiretório chamado **.git** que contém todos os arquivos n
 git init 
 ```
 
-#### Verificar estado dos arquivos/diretórios:
+## Verificar estado dos arquivos/diretórios:
 
 ```sh
 git status
 ```
 
-#### Adicionar arquivo/diretório (staged area):
+## Adicionar arquivo/diretório (staged area):
 
 Adiciona os arquivos novos ou alterados em seu diretório de trabalho à área de preparação do Git. 
 
-###### Adicionar todos os arquivos/diretórios
+#### Adicionar todos os arquivos/diretórios
 
 ```sh
 git add .
 ```
 
-###### Adicionar um arquivo em específico
+#### Adicionar um arquivo em específico
 
 ```sh
 git add meu_arquivo.txt
 ```
 
-###### Adicionar um diretório em específico
+#### Adicionar um diretório em específico
 
 ```sh
 git add meu_diretorio
 ```
 
-#### Comitar arquivo/diretório
+## Comitar arquivo/diretório
 
 - Para realmente confirmar estas mudanças (isto é, fazer um commit), use:
 - Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remoto.
@@ -72,13 +72,13 @@ git add meu_diretorio
 git commit -m "meu comentário"
 ```
 
-###### Comitar arquivo específico informando uma mensagem
+#### Comitar arquivo específico informando uma mensagem
 
 ```sh
 git commit meu_arquivo.txt -m "meu comentário"
 ```
 
-#### Enviar arquivos/diretórios para o repositório remoto
+## Enviar arquivos/diretórios para o repositório remoto
 
 O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
 
