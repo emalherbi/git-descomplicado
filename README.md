@@ -197,6 +197,12 @@ git remote show origin
   up = pull
 ```
 
+#### Listar configurações
+
+```
+git config --list
+```
+
 # Contribuições
 
 Sinta-se a vontade para realizar adicionar mais informações ou realizar correções. Fork me!
