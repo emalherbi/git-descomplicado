@@ -131,7 +131,21 @@ git log --author=usuario
 
 Verifique as demais opções de formatação no [Git Book](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
 
-## Git Alias
+# Repositório Remoto
+
+#### Exibir os repositórios remotos
+
+```
+git remote -v
+```
+
+#### Exibir informações dos repositórios remotos
+
+```
+git remote show origin
+```
+	
+# Git Alias
 
 - As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
 - (Ex.: Windows: C:\\Users\\NOME_PC\\.gitconfig);
