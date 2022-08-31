@@ -27,6 +27,23 @@ git config --list
 
 # Repositório Local
 
+## Baixar o projeto no computador usando a opção SSH e enviar para o GIT.
+
+```
+git init 
+git add .
+git commit -m "meu comentário"
+git branch -M main
+git remote add origin git@github.com:emalherbi/git-descomplicado.git
+git push -u origin main
+```
+
+## Clonar um repositório remoto já existente
+
+```
+git clone git@github.com:emalherbi/git-descomplicado.git
+```
+
 ## Criar novo repositório
 
 Isso cria um novo subdiretório chamado **.git** que contém todos os arquivos necessários de seu repositório (um esqueleto de repositório Git):
@@ -106,12 +123,6 @@ git pull
 
 ```
 git fetch -p
-```
-
-## Clonar um repositório remoto já existente
-
-```
-git clone git@github.com:emalherbi/git-descomplicado.git
 ```
 
 ## Visualizar histórico
