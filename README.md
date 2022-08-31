@@ -268,6 +268,35 @@ git push --force-with-lease
 
 Mais informações e explicações sobre o [Rebasing](http://git-scm.com/book/en/Git-Branching-Rebasing)
 
+## Stash
+
+- Para alternar entre um branch e outro é necessário fazer o commit das alterações atuais para depois trocar para um outro branch. Se existir a necessidade de realizar a troca sem fazer o commit é possível criar um **stash**. 
+- O Stash como se fosse um branch temporário que contem apenas as alterações ainda não commitadas.
+
+#### Criar um stash
+
+```
+git stash
+```
+
+#### Listar stashes
+
+```
+git stash list
+```
+
+#### Voltar para o último stash
+
+```
+git stash apply
+```
+
+#### Criar um branch a partir de um stash
+
+```
+git stash branch meu_branch
+```
+
 # Repositório Remoto
 
 #### Exibir os repositórios remotos
