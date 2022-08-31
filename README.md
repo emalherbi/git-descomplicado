@@ -25,7 +25,7 @@ git config --global user.email "seu@email.com"
 git config --list
 ```
 
-## Repositório Local
+# Repositório Local
 
 ## Criar novo repositório
 
@@ -92,7 +92,7 @@ Os demais pushes não precisam dessa informação
 git push
 ```
 
-# Git Alias
+## Git Alias
 
 - As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
 - (Ex.: Windows: C:\\Users\\NOME_PC\\.gitconfig);
