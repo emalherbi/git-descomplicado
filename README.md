@@ -97,7 +97,7 @@ git push
 - As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
 - (Ex.: Windows: C:\Users\NOME_PC\.gitconfig);
  
-```sh
+```
 [user]
   email = seu@email.com
   name = SEU NOME COMPLETO
