@@ -92,6 +92,38 @@ Os demais pushes não precisam dessa informação
 git push
 ```
 
+# Git Alias
+
+- As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional; 
+- (Ex.: Windows: C:\Users\NOME_PC\.gitconfig);
+ 
+```sh
+[user]
+	email = seu@email.com
+	name = SEU NOME COMPLETO
+[alias]
+    ad = add *
+    br = branch
+    brd = branch -d
+    ch = checkout
+    chb = checkout -b
+    cl = clone
+    clr = !git branch -D `git branch --list '*wb*'`
+    co = commit -m
+    df = diff
+	  ft = fetch -p
+    pl = pull
+    ps = push
+	  psf = push --force-with-lease
+	  rb = rebase origin/master
+	  rbc = rebase --continue
+    rbm = rebase origin/main
+	  rbs = rebase --skip
+    rs = reset --hard HEAD
+    st = status -sb
+    up = pull
+```
+
 # Contribuições
 
 Sinta-se a vontade para realizar adicionar mais informações ou realizar correções. Fork me!
