@@ -99,29 +99,28 @@ git push
  
 ```sh
 [user]
-	email = seu@email.com
-	name = SEU NOME COMPLETO
+  email = seu@email.com
+  name = SEU NOME COMPLETO
 [alias]
-    ad = add *
-    br = branch
-    brd = branch -d
-    ch = checkout
-    chb = checkout -b
-    cl = clone
-    clr = !git branch -D `git branch --list '*wb*'`
-    co = commit -m
-    df = diff
-	  ft = fetch -p
-    pl = pull
-    ps = push
-	  psf = push --force-with-lease
-	  rb = rebase origin/master
-	  rbc = rebase --continue
-    rbm = rebase origin/main
-	  rbs = rebase --skip
-    rs = reset --hard HEAD
-    st = status -sb
-    up = pull
+  ad = add *
+  br = branch
+  brd = branch -D
+  ch = checkout
+  chb = checkout -b
+  cl = clone
+  co = commit -m
+  df = diff
+  ft = fetch -p
+  pl = pull
+  ps = push
+  psf = push --force-with-lease
+  rb = rebase origin/master
+  rbc = rebase --continue
+  rbm = rebase origin/main
+  rbs = rebase --skip
+  rs = reset --hard HEAD
+  st = status -sb
+  up = pull
 ```
 
 # Contribuições
