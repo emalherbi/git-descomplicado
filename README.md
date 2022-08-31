@@ -92,6 +92,28 @@ Os demais pushes não precisam dessa informação
 git push
 ```
 
+## Atualizar repositório local de acordo com o repositório remoto
+
+#### Atualizar os arquivos no branch atual
+
+```
+git pull
+```
+
+#### Buscar as alterações, mas não aplica-las no branch atual
+
+- `-p` = dizer ao git para remover do ramo local ramos remotos que não existem mais.
+
+```
+git fetch -p
+```
+
+#### Clonar um repositório remoto já existente
+
+```
+git clone git@github.com:leocomelli/curso-git.git
+```
+
 ## Visualizar histórico
 
 #### Exibir histórico
